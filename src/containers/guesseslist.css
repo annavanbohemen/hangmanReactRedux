@@ -1,0 +1,19 @@
+
+
+.guesslist {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+
+}
+
+.guesslist li {
+  list-style-type: none;
+  padding-right: 2em;
+  margin-bottom: 2em;
+}
+
+.guesslist ul {
+  border: 1px solid #315659;
+  margin-left: 18em;
+  margin-right: 18em;
+}

@@ -1,0 +1,17 @@
+
+.guessfield {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+}
+
+.guessfield button {
+font:normal 20px 'Shadows Into Light', cursive;
+}
+
+.guessfield input {
+  margin: 20px;
+}
+
+.guessfield label {
+  font-weight: bold;
+}

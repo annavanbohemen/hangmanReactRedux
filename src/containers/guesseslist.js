@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react'
 import { connect } from 'react-redux'
+import './guesseslist.css';
 
 
 
@@ -16,10 +17,12 @@ class GuessesList extends PureComponent {
 
   render() {
     return(
+      <div className="guesslist">
         <ul>
-        hallo
+        <li>Guessed Letters:</li>
           {this.createGuessList()}
         </ul>
+        </div>
       )
     }
 }

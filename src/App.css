@@ -1,5 +1,23 @@
 /* src/App.css */
 
+
 .App h1 {
+  color: #315659;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+  margin-bottom: 8px
+}
+
+.App-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.App-intro {
+  font-family: 'Shadows Into Light', cursive;
   text-align: center;
 }
