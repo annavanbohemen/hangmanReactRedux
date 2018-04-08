@@ -7,8 +7,8 @@ class GuessField extends PureComponent {
 	state = {}
 
 	handleSubmit = (e) => {
-		e.preventDefault()
-		this.props.makeGuess(this.state)
+		e.preventDefault();
+		this.props.makeGuess(this.state);
 	}
 
 	handleChange = (event) => {

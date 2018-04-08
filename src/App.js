@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import GuessField from './components/guessfield.js'
-import Guesses from './components/guesses.js'
+import GuessesList from './containers/guesseslist.js'
 
 class App extends Component {
   render() {
@@ -14,7 +14,7 @@ class App extends Component {
         <p className="App-intro">
           Guess the word and you will be fine. To many wrong guesses and you will be hanged!
         </p>
-        < Guesses />
+        < GuessesList />
         < GuessField />
       </div>
     );
