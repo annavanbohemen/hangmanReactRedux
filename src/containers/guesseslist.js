@@ -19,7 +19,7 @@ class GuessesList extends PureComponent {
     return(
       <div className="guesslist">
         <ul>
-        <li>Guessed Letters:</li>
+        <li>Guessed Letters</li>
           {this.createGuessList()}
         </ul>
         </div>

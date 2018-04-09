@@ -13,7 +13,6 @@ class App extends Component {
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
     </style>
         <header className="App-header">
-          <img src='images/hangman.png' className="App-logo" alt="logo" />
           <h1 className="title">HANGMAN</h1>
         </header>
         <p className="App-intro">

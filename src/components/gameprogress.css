@@ -8,3 +8,10 @@
   font-weight: bold;
   color: #315659;
 }
+
+.wrongguesses {
+  border: 1px solid #315659;
+  border-radius: 25px;
+  margin-left: 49%;
+  margin-right: 49%;
+}

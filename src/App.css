@@ -1,4 +1,3 @@
-/* src/App.css */
 
 
 .App h1 {
@@ -8,13 +7,6 @@
   font-size: 48px;
   text-shadow: 4px 4px 4px #aaa;
   margin-bottom: 8px
-}
-
-.App-logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
 
 .App-intro {
