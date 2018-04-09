@@ -32,11 +32,18 @@ showGuess() {
     }, 0)
   }
 
+
+
 render() {
+      const picName = './images/'+this.wrongGuessCount()+'.gif';
 
   return(
     <div className="gamefield">
     <p className= "gameword"> {this.showGuess()} </p>
+    <div>
+      <img src={picName} width="100" height="100" alt='showpic'/>
+    </div>
+    <p className= "wrongguesses"> {this.wrongGuessCount()}</p>
     </div>
   )
 }
