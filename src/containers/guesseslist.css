@@ -9,7 +9,7 @@
 .guesslist li {
   list-style-type: none;
   padding-right: 2em;
-  margin-bottom: 2em;
+  display: inline-block
 }
 
 .guesslist ul {

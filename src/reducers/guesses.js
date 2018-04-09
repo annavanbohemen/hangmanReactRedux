@@ -1,6 +1,5 @@
 import { MAKE_GUESS } from '../actions/game'
 
-const word = "codaisseur"
 
 export default function(state = [], action = {}) {
   switch(action.type) {
